@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class RaceInput {
     static Scanner sc = new Scanner(System.in);
 
-    public static int getData(String title) {
+    public static int getInt(String title) {
         System.out.println(title);
         return Integer.parseInt(sc.nextLine());
     }
